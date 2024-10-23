@@ -36,41 +36,7 @@ curl \
   --request POST \
   --url https://xxx/call \
   --data <span class="pl-smi">$data</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# Ask the bot to call a phone number
-data='{
-  &quot;bot_company&quot;: &quot;Contoso&quot;,
-  &quot;bot_name&quot;: &quot;Amélie&quot;,
-  &quot;phone_number&quot;: &quot;+11234567890&quot;,
-  &quot;task&quot;: &quot;Help the customer with their digital workplace. Assistant is working for the IT support department. The objective is to help the customer with their issue and gather information in the claim.&quot;,
-  &quot;agent_phone_number&quot;: &quot;+33612345678&quot;,
-  &quot;claim&quot;: [
-    {
-      &quot;name&quot;: &quot;hardware_info&quot;,
-      &quot;type&quot;: &quot;text&quot;
-    },
-    {
-      &quot;name&quot;: &quot;first_seen&quot;,
-      &quot;type&quot;: &quot;datetime&quot;
-    },
-    {
-      &quot;name&quot;: &quot;building_location&quot;,
-      &quot;type&quot;: &quot;text&quot;
-    }
-  ]
-}'
-
-curl \
-  --header 'Content-Type: application/json' \
-  --request POST \
-  --url https://xxx/call \
-  --data $data" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+     
   </div></div>
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5209451" _msthash="289">特征</h3><a id="user-content-features" class="anchor" aria-label="永久链接：功能" href="#features" _mstaria-label="370552" _msthash="290"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <div class="markdown-alert markdown-alert-note" dir="auto"><p class="markdown-alert-title" dir="auto"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg><font _mstmutation="1" _msttexthash="5121168" _msthash="291">注意</font></p><p dir="auto" _msttexthash="748761143" _msthash="292">这个项目是一个概念验证。它不打算用于生产。这演示了如何结合使用 Azure 通信服务、Azure 认知服务和 Azure OpenAI 来构建自动化呼叫中心解决方案。</p>
@@ -160,60 +126,7 @@ curl \
   },
   <span class="pl-ii">...</span>
 }</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="{
-  &quot;claim&quot;: {
-    &quot;incident_datetime&quot;: &quot;2024-10-08T02:00:00&quot;,
-    &quot;incident_description&quot;: &quot;La trottinette électrique fait des bruits bizarres et émet de la fumée blanche.&quot;,
-    &quot;incident_location&quot;: &quot;46 rue du Charles de Gaulle&quot;,
-    &quot;injuries&quot;: &quot;Douleur au genou suite à une chute.&quot;,
-    &quot;involved_parties&quot;: &quot;Lesne&quot;,
-    &quot;policy_number&quot;: &quot;B02131325XPGOLMP&quot;
-  },
-  &quot;messages&quot;: [
-    {
-      &quot;created_at&quot;: &quot;2024-10-08T11:23:41.824758Z&quot;,
-      &quot;action&quot;: &quot;call&quot;,
-      &quot;content&quot;: &quot;&quot;,
-      &quot;persona&quot;: &quot;human&quot;,
-      &quot;style&quot;: &quot;none&quot;,
-      &quot;tool_calls&quot;: []
-    },
-    {
-      &quot;created_at&quot;: &quot;2024-10-08T11:23:55.421654Z&quot;,
-      &quot;action&quot;: &quot;talk&quot;,
-      &quot;content&quot;: &quot;Bonjour, je m'appelle Amélie, de Contoso Assurance ! Comment puis-je vous aider aujourd'hui ?&quot;,
-      &quot;persona&quot;: &quot;assistant&quot;,
-      &quot;style&quot;: &quot;cheerful&quot;,
-      &quot;tool_calls&quot;: []
-    },
-    {
-      &quot;created_at&quot;: &quot;2024-10-08T11:24:19.972737Z&quot;,
-      &quot;action&quot;: &quot;talk&quot;,
-      &quot;content&quot;: &quot;Oui bien sûr. Bonjour, je vous appelle parce que j'ai un problème avec ma trottinette électrique. Elle marche plus depuis ce matin, elle fait des bruits bizarres et il y a une fumée blanche qui sort de la trottinette.&quot;,
-      &quot;persona&quot;: &quot;human&quot;,
-      &quot;style&quot;: &quot;none&quot;,
-      &quot;tool_calls&quot;: []
-    }
-  ],
-  &quot;next&quot;: {
-    &quot;action&quot;: &quot;case_closed&quot;,
-    &quot;justification&quot;: &quot;The customer provided all necessary information for the claim, and they expressed satisfaction with the assistance received. No further action is required at this time.&quot;
-  },
-  &quot;synthesis&quot;: {
-    &quot;long&quot;: &quot;You reported an issue with your electric scooter, which started making strange noises and emitting white smoke. This incident occurred at 2:00 AM while you were riding it, leading to a fall and resulting in knee pain. The location of the incident was noted, and your policy details were confirmed. I have documented all the necessary information to file your claim. Please take care of your knee, and feel free to reach out if you need further assistance.&quot;,
-    &quot;satisfaction&quot;: &quot;high&quot;,
-    &quot;short&quot;: &quot;the breakdown of your scooter&quot;,
-    &quot;improvement_suggestions&quot;: &quot;Ensure that the assistant provides clear next steps and offers to schedule follow-up calls proactively to enhance customer support.&quot;
-  },
-  ...
-}" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="29948633" _msthash="328">通话后的用户报告</h3><a id="user-content-user-report-after-the-call" class="anchor" aria-label="固定链接：通话后的用户报告" href="#user-report-after-the-call" _mstaria-label="984867" _msthash="329"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <p dir="auto"><font _mstmutation="1" _msttexthash="178997910" _msthash="330">报告位于 （如 ）。它显示对话历史记录、索赔数据和提醒。</font><code>https://[your_domain]/report/[phone_number]</code><code>http://localhost:8080/report/%2B133658471534</code></p>
@@ -251,27 +164,7 @@ graph
         </div>
       </details-dialog>
     </details>
-  <!----><clipboard-copy class="btn my-2 js-clipboard-copy p-0 d-inline-flex tooltipped-no-delay" role="button" data-copy-feedback="Copied!" data-tooltip-direction="s" aria-label="复制美人鱼代码" value="---
-title: System diagram (C4 model)
----
-graph
-  user([&quot;User&quot;])
-  agent([&quot;Agent&quot;])
-
-  app[&quot;Call Center AI&quot;]
-
-  app -- Transfer to --> agent
-  app -. Send voice .-> user
-  user -- Call --> app
-" tabindex="0" _mstaria-label="283933" _msthash="338">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" class="octicon octicon-copy js-clipboard-copy-icon m-2">
-      <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-      <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-    </svg>
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
-      <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-    </svg>
-  </clipboard-copy>
+  <!----> 
   </div><!---->
     <div class="render-container color-bg-transparent js-render-target p-0 is-render-automatic is-render-requested is-render-ready" data-identity="23af2562-ae28-4569-9283-dc8c5bf20749" data-host="https://viewscreen.githubusercontent.com" data-type="mermaid" style="height: 425.667px;">
       <iframe title="File display" role="presentation" class="render-viewer" sandbox="allow-scripts allow-same-origin allow-top-navigation allow-popups" src="https://viewscreen.githubusercontent.com/markdown/mermaid?docs_host=https%3A%2F%2Fdocs.github.com&amp;color_mode=light#23af2562-ae28-4569-9283-dc8c5bf20749" name="23af2562-ae28-4569-9283-dc8c5bf20749" data-content="{&quot;data&quot;:&quot;---\ntitle: System diagram (C4 model)\n---\ngraph\n  user([\&quot;User\&quot;])\n  agent([\&quot;Agent\&quot;])\n\n  app[\&quot;Call Center AI\&quot;]\n\n  app -- Transfer to --&amp;gt; agent\n  app -. Send voice .-&amp;gt; user\n  user -- Call --&amp;gt; app\n&quot;}">
@@ -369,61 +262,7 @@ graph LR
         </div>
       </details-dialog>
     </details>
-  <!----><clipboard-copy class="btn my-2 js-clipboard-copy p-0 d-inline-flex tooltipped-no-delay" role="button" data-copy-feedback="Copied!" data-tooltip-direction="s" aria-label="复制美人鱼代码" value="---
-title: Claim AI component diagram (C4 model)
----
-graph LR
-  agent([&quot;Agent&quot;])
-  user([&quot;User&quot;])
-
-  subgraph &quot;Claim AI&quot;
-    ada[&quot;Embedding<br>(ADA)&quot;]
-    app[&quot;App<br>(Container App)&quot;]
-    communication_services[&quot;Call &amp; SMS gateway<br>(Communication Services)&quot;]
-    db[(&quot;Conversations and claims<br>(Cosmos DB / SQLite)&quot;)]
-    eventgrid[&quot;Broker<br>(Event Grid)&quot;]
-    gpt[&quot;LLM<br>(GPT-4o)&quot;]
-    queues[(&quot;Queues<br>(Azure Storage)&quot;)]
-    redis[(&quot;Cache<br>(Redis)&quot;)]
-    search[(&quot;RAG<br>(AI Search)&quot;)]
-    sounds[(&quot;Sounds<br>(Azure Storage)&quot;)]
-    sst[&quot;Speech-to-Text<br>(Cognitive Services)&quot;]
-    translation[&quot;Translation<br>(Cognitive Services)&quot;]
-    tts[&quot;Text-to-Speech<br>(Cognitive Services)&quot;]
-  end
-
-  app -- Respond with text --> communication_services
-  app -- Ask for translation --> translation
-  app -- Ask to transfer --> communication_services
-  app -- Few-shot training --> search
-  app -- Generate completion --> gpt
-  app -- Get cached data --> redis
-  app -- Save conversation --> db
-  app -- Send SMS report --> communication_services
-  app -. Watch .-> queues
-
-  communication_services -- Generate voice --> tts
-  communication_services -- Load sound --> sounds
-  communication_services -- Notifies --> eventgrid
-  communication_services -- Send SMS --> user
-  communication_services -- Transfer to --> agent
-  communication_services -- Transform voice --> sst
-  communication_services -. Send voice .-> user
-
-  eventgrid -- Push to --> queues
-
-  search -- Generate embeddings --> ada
-
-  user -- Call --> communication_services
-" tabindex="0" _mstaria-label="283933" _msthash="347">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" class="octicon octicon-copy js-clipboard-copy-icon m-2">
-      <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-      <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-    </svg>
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
-      <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-    </svg>
-  </clipboard-copy>
+  <!----> 
   </div><!---->
     <div class="render-container color-bg-transparent js-render-target p-0 is-render-automatic is-render-requested is-render-ready" data-identity="27487e82-f6d6-4b8a-926f-6b1e5681ec7a" data-host="https://viewscreen.githubusercontent.com" data-type="mermaid" style="height: 802.105px;">
       <iframe title="File display" role="presentation" class="render-viewer" sandbox="allow-scripts allow-same-origin allow-top-navigation allow-popups" src="https://viewscreen.githubusercontent.com/markdown/mermaid?docs_host=https%3A%2F%2Fdocs.github.com&amp;color_mode=light#27487e82-f6d6-4b8a-926f-6b1e5681ec7a" name="27487e82-f6d6-4b8a-926f-6b1e5681ec7a" data-content="{&quot;data&quot;:&quot;---\ntitle: Claim AI component diagram (C4 model)\n---\ngraph LR\n  agent([\&quot;Agent\&quot;])\n  user([\&quot;User\&quot;])\n\n  subgraph \&quot;Claim AI\&quot;\n    ada[\&quot;Embedding&amp;lt;br&amp;gt;(ADA)\&quot;]\n    app[\&quot;App&amp;lt;br&amp;gt;(Container App)\&quot;]\n    communication_services[\&quot;Call &amp;amp; SMS gateway&amp;lt;br&amp;gt;(Communication Services)\&quot;]\n    db[(\&quot;Conversations and claims&amp;lt;br&amp;gt;(Cosmos DB / SQLite)\&quot;)]\n    eventgrid[\&quot;Broker&amp;lt;br&amp;gt;(Event Grid)\&quot;]\n    gpt[\&quot;LLM&amp;lt;br&amp;gt;(GPT-4o)\&quot;]\n    queues[(\&quot;Queues&amp;lt;br&amp;gt;(Azure Storage)\&quot;)]\n    redis[(\&quot;Cache&amp;lt;br&amp;gt;(Redis)\&quot;)]\n    search[(\&quot;RAG&amp;lt;br&amp;gt;(AI Search)\&quot;)]\n    sounds[(\&quot;Sounds&amp;lt;br&amp;gt;(Azure Storage)\&quot;)]\n    sst[\&quot;Speech-to-Text&amp;lt;br&amp;gt;(Cognitive Services)\&quot;]\n    translation[\&quot;Translation&amp;lt;br&amp;gt;(Cognitive Services)\&quot;]\n    tts[\&quot;Text-to-Speech&amp;lt;br&amp;gt;(Cognitive Services)\&quot;]\n  end\n\n  app -- Respond with text --&amp;gt; communication_services\n  app -- Ask for translation --&amp;gt; translation\n  app -- Ask to transfer --&amp;gt; communication_services\n  app -- Few-shot training --&amp;gt; search\n  app -- Generate completion --&amp;gt; gpt\n  app -- Get cached data --&amp;gt; redis\n  app -- Save conversation --&amp;gt; db\n  app -- Send SMS report --&amp;gt; communication_services\n  app -. Watch .-&amp;gt; queues\n\n  communication_services -- Generate voice --&amp;gt; tts\n  communication_services -- Load sound --&amp;gt; sounds\n  communication_services -- Notifies --&amp;gt; eventgrid\n  communication_services -- Send SMS --&amp;gt; user\n  communication_services -- Transfer to --&amp;gt; agent\n  communication_services -- Transform voice --&amp;gt; sst\n  communication_services -. Send voice .-&amp;gt; user\n\n  eventgrid -- Push to --&amp;gt; queues\n\n  search -- Generate embeddings --&amp;gt; ada\n\n  user -- Call --&amp;gt; communication_services\n&quot;}">
@@ -561,67 +400,7 @@ graph LR
         </div>
       </details-dialog>
     </details>
-  <!----><clipboard-copy class="btn my-2 js-clipboard-copy p-0 d-inline-flex tooltipped-no-delay" role="button" data-copy-feedback="Copied!" data-tooltip-direction="s" aria-label="复制美人鱼代码" value="sequenceDiagram
-    autonumber
-
-    actor Customer
-    participant PSTN
-    participant Text to Speech
-    participant Speech to Text
-    actor Human agent
-    participant Event Grid
-    participant Communication Services
-    participant App
-    participant Cosmos DB
-    participant OpenAI GPT
-    participant AI Search
-
-    App->>Event Grid: Subscribe to events
-    Customer->>PSTN: Initiate a call
-    PSTN->>Communication Services: Forward call
-    Communication Services->>Event Grid: New call event
-    Event Grid->>App: Send event to event URL (HTTP webhook)
-    activate App
-    App->>Communication Services: Accept the call and give inbound URL
-    deactivate App
-    Communication Services->>Speech to Text: Transform speech to text
-
-    Communication Services->>App: Send text to the inbound URL
-    activate App
-    alt First call
-        App->>Communication Services: Send static SSML text
-    else Callback
-        App->>AI Search: Gather training data
-        App->>OpenAI GPT: Ask for a completion
-        OpenAI GPT-->>App: Respond (HTTP/2 SSE)
-        loop Over buffer
-            loop Over multiple tools
-                alt Is this a claim data update?
-                    App->>Cosmos DB: Update claim data
-                else Does the user want the human agent?
-                    App->>Communication Services: Send static SSML text
-                    App->>Communication Services: Transfer to a human
-                    Communication Services->>Human agent: Call the phone number
-                else Should we end the call?
-                    App->>Communication Services: Send static SSML text
-                    App->>Communication Services: End the call
-                end
-            end
-        end
-        App->>Cosmos DB: Persist conversation
-    end
-    deactivate App
-    Communication Services->>PSTN: Send voice
-    PSTN->>Customer: Forward voice
-" tabindex="0" _mstaria-label="283933" _msthash="356">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" class="octicon octicon-copy js-clipboard-copy-icon m-2">
-      <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
-      <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-    </svg>
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
-      <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-    </svg>
-  </clipboard-copy>
+  <!----> 
   </div><!---->
     <div class="render-container color-bg-transparent js-render-target p-0 is-render-automatic is-render-requested is-render-ready" data-identity="df9b02ec-4ae5-4580-97eb-9b61f67b96de" data-host="https://viewscreen.githubusercontent.com" data-type="mermaid" style="height: 551.133px;">
       <iframe title="File display" role="presentation" class="render-viewer" sandbox="allow-scripts allow-same-origin allow-top-navigation allow-popups" src="https://viewscreen.githubusercontent.com/markdown/mermaid?docs_host=https%3A%2F%2Fdocs.github.com&amp;color_mode=light#df9b02ec-4ae5-4580-97eb-9b61f67b96de" name="df9b02ec-4ae5-4580-97eb-9b61f67b96de" data-content="{&quot;data&quot;:&quot;sequenceDiagram\n    autonumber\n\n    actor Customer\n    participant PSTN\n    participant Text to Speech\n    participant Speech to Text\n    actor Human agent\n    participant Event Grid\n    participant Communication Services\n    participant App\n    participant Cosmos DB\n    participant OpenAI GPT\n    participant AI Search\n\n    App-&amp;gt;&amp;gt;Event Grid: Subscribe to events\n    Customer-&amp;gt;&amp;gt;PSTN: Initiate a call\n    PSTN-&amp;gt;&amp;gt;Communication Services: Forward call\n    Communication Services-&amp;gt;&amp;gt;Event Grid: New call event\n    Event Grid-&amp;gt;&amp;gt;App: Send event to event URL (HTTP webhook)\n    activate App\n    App-&amp;gt;&amp;gt;Communication Services: Accept the call and give inbound URL\n    deactivate App\n    Communication Services-&amp;gt;&amp;gt;Speech to Text: Transform speech to text\n\n    Communication Services-&amp;gt;&amp;gt;App: Send text to the inbound URL\n    activate App\n    alt First call\n        App-&amp;gt;&amp;gt;Communication Services: Send static SSML text\n    else Callback\n        App-&amp;gt;&amp;gt;AI Search: Gather training data\n        App-&amp;gt;&amp;gt;OpenAI GPT: Ask for a completion\n        OpenAI GPT--&amp;gt;&amp;gt;App: Respond (HTTP/2 SSE)\n        loop Over buffer\n            loop Over multiple tools\n                alt Is this a claim data update?\n                    App-&amp;gt;&amp;gt;Cosmos DB: Update claim data\n                else Does the user want the human agent?\n                    App-&amp;gt;&amp;gt;Communication Services: Send static SSML text\n                    App-&amp;gt;&amp;gt;Communication Services: Transfer to a human\n                    Communication Services-&amp;gt;&amp;gt;Human agent: Call the phone number\n                else Should we end the call?\n                    App-&amp;gt;&amp;gt;Communication Services: Send static SSML text\n                    App-&amp;gt;&amp;gt;Communication Services: End the call\n                end\n            end\n        end\n        App-&amp;gt;&amp;gt;Cosmos DB: Persist conversation\n    end\n    deactivate App\n    Communication Services-&amp;gt;&amp;gt;PSTN: Send voice\n    PSTN-&amp;gt;&amp;gt;Customer: Forward voice\n&quot;}">
@@ -749,31 +528,7 @@ graph LR
 <span class="pl-ent">prompts</span>:
   <span class="pl-ent">llm</span>: <span class="pl-s">{}</span>
   <span class="pl-ent">tts</span>: <span class="pl-s">{}</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# config.yaml
-conversation:
-  initiate:
-    # Phone number the bot will transfer the call to if customer asks for a human agent
-    agent_phone_number: &quot;+33612345678&quot;
-    bot_company: Contoso
-    bot_name: Amélie
-    lang: {}
-
-communication_services:
-  # Phone number purshased from Communication Services
-  phone_number: &quot;+33612345678&quot;
-
-sms: {}
-
-prompts:
-  llm: {}
-  tts: {}" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="22585745" _msthash="395">2. 连接到 Azure 环境</h4><a id="user-content-2-connect-to-your-azure-environment" class="anchor" aria-label="永久链接：2. 连接到 Azure 环境" href="#2-connect-to-your-azure-environment" _mstaria-label="1518361" _msthash="396"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>az login</pre><div class="zeroclipboard-container">
